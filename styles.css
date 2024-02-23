@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-#navbar {
-    display: flex;
-    justify-content: end;
-    padding: 3%;
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+}
+
+.navlink {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.navlink li {
+    display: inline-block;
+    padding: 0px 15px;
 }
   
 header {
-    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
+    max-height: auto;
     background-color: #fafafa;
     border: 1px solid #dce0e3;
+
+    font-family: "Overpass", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
 }
   
 li {
@@ -23,6 +46,7 @@ li {
 }
 
 #welcome-section {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,24 +55,39 @@ li {
     height: 50vh;
     background-color: #ffffff;
     border-bottom: 1px solid #dce0e3;
+
+    font-family: "Overpass", sans-serif;
+    font-weight: 50;
+    font-size: 45px;
+    color: #000000;
+    text-decoration: none;
 }
 
 #showcase {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: start;
     width: 100%;
     height: 50vh;
-    background-color: #ffffff;
+    background-color: #edd39d;
     border-bottom: 1px solid #dce0e3;
+    transition: background-color 0.3s ease;
 }
 
+.avcontainer, .webcontainer {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.avcontainer:hover, .webcontainer:hover {
+    background-color: grey;
+}
+
+
+/*
 .profession {
-    margin: 5vh 2vh;
-    padding: 10px;
-    min-width: 100px;
-    min-height: 40px;
     border-radius: 0;
     border:none;
     background-color: transparent;
@@ -56,8 +95,29 @@ li {
 }
 
 .profession:hover {
-    background-color: skyblue;
-    border: 1px solid #fafafa;
+    color: skyblue;
+}
+*/
+.imgtext {
+    position: absolute;
+    padding: 25vh 5vh;
+    font-family: "Overpass", sans-serif;
+    font-size: 15vh;
+    font-weight: 800px;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.web {
+    max-height: 50vh;
+    border: none;
+    float: left;
+}
+
+.av {
+    max-height: 50vh;
+    border: none;
+    float: right;
 }
 
 #projects {
@@ -71,7 +131,8 @@ li {
 
 #dabomb {
     width: 100%;
-    height: auto;
+    object-fit: fill;
+    visibility: hidden;
 }
 
 #contact {
