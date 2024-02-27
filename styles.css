@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
 .logo {
     cursor: pointer;
@@ -39,11 +42,6 @@ header {
     color: #000000;
     text-decoration: none;
 }
-  
-li {
-    display: inline;
-    padding: 10px;
-}
 
 #welcome-section {
     overflow: hidden;
@@ -53,7 +51,7 @@ li {
     align-items: center;
     width: 100%;
     height: 50vh;
-    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     border-bottom: 1px solid #dce0e3;
 
     font-family: "Overpass", sans-serif;
@@ -74,6 +72,7 @@ li {
 }
 
 .avcontainer, .webcontainer {
+    overflow: hidden;
     width: 50%;
     margin: auto;
     position: relative;
@@ -86,14 +85,12 @@ li {
 }
 
 
-/*
+
 .profession {
-    border-radius: 0;
-    border:none;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+    
 }
 
+/*
 .profession:hover {
     color: skyblue;
 }
@@ -102,10 +99,39 @@ li {
     position: absolute;
     padding: 25vh 5vh;
     font-family: "Overpass", sans-serif;
-    font-size: 15vh;
+    font-size: 8vw;
     font-weight: 800px;
     color: #ffffff;
     white-space: nowrap;
+    border: none;
+}
+
+.webtext::before {
+    content: 'Web Design';
+    position: absolute;
+    color: #262626;
+    border: 5px black;
+    width: 0%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.webtext:hover::before {
+    width: 100%;
+}
+
+.avtext::before {
+    content: 'Aviation';
+    position: absolute;
+    color: #262626;
+    border: 5px black;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.avtext:hover::before {
+    width: 100%;
 }
 
 .web {
@@ -121,24 +147,131 @@ li {
 }
 
 #projects {
+    overflow: hidden;
+    text-overflow: clip;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    position: relative;
+    height: 80vh;
     width: 100%;
     border-bottom: 1px solid #dce0e3;
 }
 
-#dabomb {
-    width: 100%;
-    object-fit: fill;
-    visibility: hidden;
+.tokyo {
+    width: 25vw;
+    top: 15%;
+    left: 7.5%;
+    position: absolute;
+    z-index: 1;
+    box-shadow: -10px 5px 5px #7c7c7c5b;
+}
+
+.me {
+    width: 25vw;
+    bottom: 15%;
+    right: 50%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: -10px 5px 5px #7c7c7c5b;
+}
+
+#selfdescription {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    max-width: 30vw;
+    font-family: "Overpass", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: -2px 2px 2px #b6b6b670;
 }
 
 #contact {
     width: 100%;
-    background-color: #ffffff;
 }
+
+footer {
+    background-color: #1a1d20;
+    padding: 20px 0;
+    font-family: "Overpass", sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1vh 5vw;
+  }
+  
+  footer .container > * {
+    margin: 20px 0;
+  }
+
+  footer .social-icons a {
+    display: inline-block;
+    color: #656d78;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  footer .social-icons a i {
+    font-size: 20px;
+  }
+
+  footer .signup-bar {
+    
+  }
+  
+  footer .signup-bar h3 {
+    margin-bottom: 10px;
+    color: #656d78;
+  }
+  
+  footer .signup-bar form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .signup-bar input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  footer .signup-bar button {
+    padding: 10px 20px;
+    background-color: #434a54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer nav ul {
+    list-style: none;
+
+  }
+  
+  footer nav ul li {
+    display: inline;
+  }
+  
+  footer nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  footer p {
+    color: #656d78;
+  }
   
 @media only screen and (max-width: 600px) {
     body {
