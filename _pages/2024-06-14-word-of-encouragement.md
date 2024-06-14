@@ -1,0 +1,16 @@
+---
+published: true
+title: Word of encouragement
+description: an introduction
+author: Qian Heng Liu
+date: 2024-06-14
+---
+This blog was started as the extension of an encouragement I got from my college english teacher mr.Martoga. I never considered my writing skills to be anything particular, but I've learned to weaponize it to inavertently influence others for the sake of academic grading or winning whoever's opinion of me in some meaningless drama. The whole MBTI personality thing also pushed me to give writing some thoughts while I wear the label of INFP for a couple more years. This is the first time I write for myself, to fulfill the need of laying my thoughts out and sharing them with whoever comes across this page. My writing is definitely more readable with an improved structure and direction of thoughts ever since I took the time to think properly.
+
+But this is not about writing, but rather about how small words of encouragement can go a long way. I wouln't have started this whole thing if mr. Martoga didin't express his will for me to keep up my expressive writing. I can't see it yet, but I do think I love to inject some sass in whatever I write because everything is so serious and stale. I think it's a lot more fun to look for exciting things in small moments because we lost the ability to do that with the whole overstimulation we get in modern times and I like to do it by sprinkling some humor and sass whenever it's appropriate.
+
+I remember going on a roadtrip in North-Atlantic Quebec and the tide was rising in the afternoon. We went by the shore to look at what seemed like a sea lion. As we jump across the rocks, the tide rises and makes for a huge pond between rocks. One of my friends gets stuck on the other side while all of us have already jumped back. "I can't make the jump" he says, while the jump is clearly managable with all of us on the other side. We had to hype him up with some "c'mon man, you can make it, do it, jump!" and he does it while we throw a tiny celebration. That moment stuck with me for a while since it was so mundane, but showed me what mental barriers the power of encouragement can break.
+
+I also pay for a trainer for my weightlifting and I can say that it's not as much about the technique and knowledge of working out since there's a millions of resources out there to learn from, but rather it's the personal hypeman, the person who holds you accountable when you become lazy on pushing for the few remaining reps and the encouragement you need to break your limits and that goes a long way. I encourage whoever I can with any little progress these days, because I've seen the alternative as well. If anyone tries to do something better albeit imperfectly and it is not met with encouragement, but being put down instead, that's a sure way of making him never attempt it again. So, whatever good you do, you're doing great! It's ok if there's stuff to fix, because there always will be, but you're heading towards it. Just the decision to head in the correct direction and the willingness to change is a great step by itself.
+
+I encourage you to encourage someone today!
