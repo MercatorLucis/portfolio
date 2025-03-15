@@ -13,6 +13,7 @@ html {
 .navlink {
     text-align: right;
     vertical-align: middle;
+    overflow: hidden;
 }
 
 .navlink li {
@@ -138,7 +139,7 @@ header {
 }
 
 .webtext::before {
-    content: 'Web Design';
+    content: 'Web Dev';
     position: absolute;
     color: #262626;
     border: 5px black;
@@ -190,6 +191,7 @@ header {
 
 #projects {
     overflow: hidden;
+    overflow-y: scroll;
     text-overflow: clip;
     display: flex;
     flex-direction: column;
@@ -265,8 +267,11 @@ header {
   border-bottom: 1px solid #dce0e3;
 }
 
-.mog {
-  width: 25vw;
+.window {
+  width: 25rem;
+  max-width: 25vw;
+  min-width: 200px;
+  height: 65%;
   position: absolute;
   top: 10%;
   bottom: 15%;
@@ -277,6 +282,7 @@ header {
 
 .gallerylink {
   position: absolute;
+  text-overflow: none;
   bottom: 10%;
   left: 10%;
   max-width: 30vw;
@@ -384,6 +390,12 @@ footer {
 @media only screen and (max-width: 960px) {
     .cropbg {
       visibility: visible;
+    }
+    #selfdescription {
+      top: 5%;
+      right: 0;
+      left: 55%;
+      font-size: 18px;
     }
     .tokyo, .me {
       visibility: hidden;
